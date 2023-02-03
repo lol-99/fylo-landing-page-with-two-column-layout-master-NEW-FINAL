@@ -1,0 +1,221 @@
+body {}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Title section */
+#title {
+  background-color: #fff;
+  padding: 3% 6%;
+}
+
+.intro {
+  padding: 5% 0;
+}
+
+.curve-img {
+  width: 100%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.input-box-1 {
+  width: 100%;
+  height: 40px;
+  padding: 0;
+}
+
+.button-1 {
+  border-radius: 2px;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 85%;
+  height: 2.5rem;
+}
+
+.features-sec-1 {
+  text-align: left;
+}
+
+/* curve section */
+#bg-curve {
+  background-color: #fff;
+  padding-top: 3%;
+}
+
+/* features section */
+#features {
+  background-color: #f6f6fe;
+  padding: 3% 6%;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 14%;
+  float: left;
+  margin-right: 3%;
+}
+
+.testimonial-box {
+  background-color: #fff;
+  width: 50%;
+  /* font-size: 1rem; */
+  padding: 3% 5% 2%;
+  font-size: 0.8rem;
+  margin: 5% auto;
+  border-radius: 7px;
+  text-align: left;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  color: black;
+}
+
+.testimonial-info {
+  font-size: 0.7rem;
+}
+
+/* end section */
+#end {
+  background-color: hsl(238, 22%, 44%);
+  padding: 6% 5%;
+  color: #fff;
+}
+
+.end-para {
+  color: #fff;
+  padding-top: 3%;
+  width: 90%;
+}
+
+.input-box-2 {
+  margin-bottom: 2%;
+  height: 2.5rem;
+  width: 70%;
+}
+
+.button-2 {
+  border-radius: 2px;
+  padding-left: 6%;
+  padding-right: 6%;
+  height: 2.5rem;
+}
+
+/* cta section */
+#cta {
+  color: #fff;
+  background-color: hsl(243, 87%, 12%);
+  padding: 6% 5%;
+}
+
+.filter-white {
+  filter: invert(94%) sepia(96%) saturate(2%) hue-rotate(243deg) brightness(104%) contrast(100%);
+  margin-bottom: 1%;
+}
+
+.nav-link {
+  margin: 3% 0;
+}
+
+.contact-logos {
+  margin-right: 3%;
+}
+
+.social-media-links {
+  margin: 4% 3%;
+  color: #fff;
+}
+
+.social-media-logo:hover {
+  color: hsl(238, 22%, 44%);
+}
+
+/* Green link */
+.green-link {
+  color: #3c9f8f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.green-link:hover {
+  color: #A0E4CB;
+}
+
+/* ---- */
+#cta a:hover {
+  color: hsl(238, 22%, 44%);
+}
+
+/* media queries */
+@media (max-width: 988px) {
+  #title {
+    text-align: center;
+  }
+
+  .features-sec-1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+
+
+  /* cta section */
+  .cta-cols {
+    margin: 2% 0;
+  }
+
+  .social-media-logos {
+    text-align: center;
+  }
+
+  .end-col-1, .end-col-2 {
+    text-align: center;
+  }
+
+  .end-para {
+    margin: 0 auto;
+    margin-bottom: 4%;
+  }
+
+  #end {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .button-2, .input-box-2 {
+    width: 60%;
+    border-radius: 2px;
+  }
+  #features{
+    text-align: center;
+  }
+  .input-box-1, .button-1{
+    margin: 2%;
+    width: 80%;
+  }
+
+}

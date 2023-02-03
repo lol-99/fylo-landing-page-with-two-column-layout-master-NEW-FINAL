@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- bootstrap links -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--font awesome setup-->
+  <script src="https://kit.fontawesome.com/f81f649d28.js" crossorigin="anonymous"></script>
+
+  <!-- font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--favicon-->
+  <link rel="icon" type="image" sizes="32x32" href="images/favicon.png">
+
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section id="title">
+
+    <!-- Section 1 -->
+
+    <!-- Navigation Bar -->
+
+    <nav class="top-bar navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.svg" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-contents" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-contents">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="intro col-lg-6 col-md-12">
+        <h1 style="padding-right: 2%;">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+
+        <div class="features-sec-1" style="width: 75%;">
+          <p class="">
+            Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+          </p>
+          <div class="row">
+            <div class="align-input-box col-lg-6">
+              <input class="input-box-1" id="email-1" type="email" name="email" value="">
+            </div>
+            <div class="col-lg-6">
+              <button class="button-1 btn btn-primary" type="button" name="button">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <!-- <label for="email-1">Enter your email...</label> -->
+
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <img class="illustration" src="images/illustration-1.svg" alt="">
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section id="bg-curve">
+    <!-- Section 2 -->
+
+    <!-- bg-curve svg file -->
+    <img class="curve-img" src="images/bg-curve-desktop.svg" alt="">
+
+
+  </section>
+
+  <section id="features">
+    <!-- Section 3 -->
+    <div class="row">
+      <div class="col-lg-6 col-md-12">
+        <h1>Stay productive, wherever you are</h1>
+
+        <div class="">
+
+          <div class="" style="text-align: justify; width: 80%;">
+            <p>Never let location be an issue when accessing your files. Fylo has you
+              covered for all of your file storage needs.
+            </p>
+
+            <p>
+              Securely share files and folders with friends, family and colleagues for
+              live collaboration. No email attachments required!
+            </p>
+          </div>
+
+          <a class="green-link" href="#">See how Fylo works <img src="images/icon-arrow.svg" alt=""> </a>
+        </div>
+
+        <div class="testimonial-box">
+          <img src="images/icon-quotes.svg" alt="">
+
+          <p class="">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <img class="testimonial-img" src="images/avatar-testimonial.jpg" alt="">
+
+          <p class="testimonial-info"><span class="testimonial-name">Kyle Burton</span> <br>
+            Founder & CEO, Huddle</p>
+        </div>
+
+      </div>
+      <div class="col-lg-6 col-md-12">
+
+        <img class="illustration" src="images/illustration-2.svg" alt="">
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <section id="end">
+    <!-- Section 4 -->
+
+    <div class="row">
+      <div class="end-col-1 col-lg-6">
+        <h2>Get early access today</h2>
+
+        <p class="end-para" style="width: 70%;">
+          It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <div class="end-col-2 col-lg-6">
+        <input class="input-box-2" type="email" name="email-2" value=""> <br>
+        <button class="button-2 btn btn-primary" type="button" name="button">Get Started for Free</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+    <!-- Section 5 -->
+    <img class="filter-white" src="images/logo.svg" alt=""><br>
+    <div class="row">
+      <div class="cta-links col-lg-3 col-md-6">
+
+        <a class="nav-link" href="#"><img class="contact-logos" src="images/icon-phone.svg" alt=""> Phone: +1-543-123-4567</a>
+        <a class="nav-link" href="mailto:example@fylo.com"><img class="contact-logos" src="images/icon-email.svg" alt="">example@fylo.com</a>
+      </div>
+
+      <div class="cta-cols col-lg-3">
+        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">Jobs</a>
+        <a class="nav-link" href="#">Press</a>
+        <a class="nav-link" href="#">Blog</a>
+      </div>
+
+      <div class="cta-cols col-lg-3">
+        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="#">Terms</a>
+        <a class="nav-link" href="#">Privacy</a>
+      </div>
+
+      <div class="cta-cols social-media-logos col-lg-3">
+        <a href="#"><i class="social-media-links fa-brands fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="social-media-links fa-brands fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="social-media-links fa-brands fa-instagram fa-2x"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Vanshika Verma</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
