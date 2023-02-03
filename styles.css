@@ -85,9 +85,8 @@ a {
   /* font-size: 1rem; */
   padding: 3% 5% 2%;
   font-size: 0.8rem;
-  margin: 5% auto;
+  margin: 5% 0;
   border-radius: 7px;
-  text-align: left;
 }
 
 .testimonial-name {
@@ -216,6 +215,9 @@ a {
   .input-box-1, .button-1{
     margin: 2%;
     width: 80%;
+  }
+  .testimonial-box{
+    margin: 5% aut0;
   }
 
 }
